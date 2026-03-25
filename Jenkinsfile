@@ -21,6 +21,13 @@ stage('Clean Stage')
 				bat 'mvn clean'
 			}
 		}
+stage('Build Stage')
+		{
+			steps
+			{
+				bat 'mvn install'
+			}
+		}
 stage('Final Stage')
 		{
 			steps
