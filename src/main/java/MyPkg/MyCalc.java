@@ -9,12 +9,17 @@ public class MyCalc {
 	{
 		return (a * b);
 	}
+	public void show()
+	{
+		System.out.println("This is Master Branch");
+	}
 		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MyCalc calc = new MyCalc();
 		System.out.println("Sum is : " + calc.sum(20 , 10));
 		System.out.println("Difference is : " + calc.mul(20 , 10));
+		calc.show();
 	}
 
 }
