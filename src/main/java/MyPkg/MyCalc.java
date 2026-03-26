@@ -9,6 +9,10 @@ public class MyCalc {
 	{
 		return (a - b);
 	}
+	public void display()
+	{
+		System.out.println("Hello Dev Branch");
+	}
 	public void show()
 	{
 		System.out.println("This is Dev Branch");
@@ -20,6 +24,7 @@ public class MyCalc {
 		System.out.println("Sum is : " + calc.sum(20 , 10));
 		System.out.println("Difference is : " + calc.dif(20 , 10));
 		calc.show();
+		calc.display();
 	}
 
 }
