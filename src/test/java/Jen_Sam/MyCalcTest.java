@@ -11,7 +11,8 @@ public class MyCalcTest {
 	@Test
 	public void test() {
 		MyCalc calc = new MyCalc();
-		assertEquals (40 , calc.sum(20,10));
+		assertEquals (30 , calc.sum(20,10));
+		assertEquals (10 , calc.dif(20,10));
 	}
 
 }
