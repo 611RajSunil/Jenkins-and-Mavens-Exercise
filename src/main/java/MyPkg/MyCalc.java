@@ -18,7 +18,7 @@ public class MyCalc {
 		// TODO Auto-generated method stub
 		MyCalc calc = new MyCalc();
 		System.out.println("Sum is : " + calc.sum(20 , 10));
-		System.out.println("Difference is : " + calc.mul(20 , 10));
+		System.out.println("Multiply is : " + calc.mul(20 , 10));
 		calc.show();
 	}
 
